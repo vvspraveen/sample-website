@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/sample-website/static/css/main.f0704449.css",
+    "main.js": "/sample-website/static/js/main.8ae44e8c.js",
+    "static/js/453.195b869a.chunk.js": "/sample-website/static/js/453.195b869a.chunk.js",
+    "static/media/cat_dog.jpg": "/sample-website/static/media/cat_dog.1f996c580672600fff22.jpg",
+    "static/media/narutowallpaper.jpg": "/sample-website/static/media/narutowallpaper.22c37317f967fa79c4ee.jpg",
+    "index.html": "/sample-website/index.html",
+    "main.f0704449.css.map": "/sample-website/static/css/main.f0704449.css.map",
+    "main.8ae44e8c.js.map": "/sample-website/static/js/main.8ae44e8c.js.map",
+    "453.195b869a.chunk.js.map": "/sample-website/static/js/453.195b869a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0704449.css",
+    "static/js/main.8ae44e8c.js"
+  ]
+}
