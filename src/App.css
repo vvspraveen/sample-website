@@ -1,38 +1,165 @@
 .App {
-  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li {
+  margin: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.scrollable-content {
+  padding: 60px 20px 20px; /* Padding for content below the fixed nav bar */
+}
+
+.section {
+  padding: 40px;
+  border-bottom: 1px solid #ccc;
+}
+
+#home {
+  height: 100vh;
+  background-image: url('D:\my-website\public\narutowallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.center-buttons {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 10px;
+}
+
+.center-buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.faq-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.faq-list {
+  margin-top: 20px;
+}
+
+.faq-item {
+  margin-bottom: 15px;
+}
+
+.faq-question {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.faq-answer {
+  font-size: 16px;
+  margin: 5px 0 10px;
+}
+
+
+
+/* .App {
+  text-align: center;
+  background-image: url('D:\my-website\public\narutowallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding: 20px;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8); 
+  // Optional: semi-transparent background for readability 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.center-buttons {
+  margin-top: 20px;
 }
+
+.center-buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+} 
+
+/* 
+.App {
+  text-align: center;
+  background-image: url('D:\my-website\public\narutowallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding: 20px;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.center-buttons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center-buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+ */
